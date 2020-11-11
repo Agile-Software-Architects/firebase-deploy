@@ -50,3 +50,5 @@ jobs:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         FIREBASE_PROJECT: ${{ secrets.FIREBASE_PROJECT }}
 ```
+## Notes
+This repo is taken from [Deploy to Firebase](https://github.com/doonstore/firebase-deploy) by [doonstore](https://github.com/doonstore) and only changes the dockerfile to pull a full version of node instead of a slim
