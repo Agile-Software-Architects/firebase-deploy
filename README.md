@@ -50,6 +50,3 @@ jobs:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         FIREBASE_PROJECT: ${{ secrets.FIREBASE_PROJECT }}
 ```
-
-## Notes
-This repo is taken from [Deploy to Firebase](https://github.com/john-pickett/firebase-deploy) by [John Pickett](https://github.com/john-pickett) with only some minor edits. His repo works great, but I needed to be able to deploy to Firebase hosting and functions together. Thanks to John for the original repo.
